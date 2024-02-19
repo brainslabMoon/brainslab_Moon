@@ -4,6 +4,7 @@
 
 void print(){
     print("Hello World!\n");
+    print("BrainsLab Git Test");
 }
 
 
