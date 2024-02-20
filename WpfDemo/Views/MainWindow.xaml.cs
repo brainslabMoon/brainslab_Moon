@@ -24,5 +24,10 @@ namespace WpfDemo
         {
             InitializeComponent();
         }
+
+        private void OhBtnClick(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Hello");
+        }
     }
 }
