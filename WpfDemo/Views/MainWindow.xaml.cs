@@ -24,5 +24,10 @@ namespace WpfDemo
         {
             InitializeComponent();
         }
+
+        private void Btn_1_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("버튼1 클릭\n");
+        }
     }
 }
