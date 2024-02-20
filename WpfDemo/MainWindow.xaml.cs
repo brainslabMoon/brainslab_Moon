@@ -18,7 +18,14 @@ namespace WpfDemo
     {
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent(); 
         }
+
+
+        private void Btn1_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("문종민의 버튼 이벤트\n");
+        }
+
     }
 }
