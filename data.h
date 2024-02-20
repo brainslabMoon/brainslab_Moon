@@ -4,6 +4,6 @@ typedef struct input_data{
     float altitude;
 
     char OFP_ID[10];
-
+    
 }input;
 
