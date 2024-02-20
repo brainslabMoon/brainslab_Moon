@@ -20,5 +20,11 @@ namespace WpfDemo
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Views.TestDialog dialog = new Views.TestDialog();
+            dialog.Show();
+        }
     }
 }
