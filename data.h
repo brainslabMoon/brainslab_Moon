@@ -5,5 +5,6 @@ typedef struct input_data{
 
     char OFP_ID[10];
     
+    int num1;
+    
 }input;
-
