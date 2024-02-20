@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfDemo"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        >
     <Grid>
         <Button x:Name="Btn1" Content="문종민의 버튼" HorizontalAlignment="Left" Margin="30" VerticalAlignment="Center" Height="50" Width="80" Click="Btn1_Click" />
     </Grid>
