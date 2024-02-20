@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name = "Btn_1" Content="버튼" HorizontalAlignment="Center" VerticalAlignment="Center" Height="50" Width="100" Click="Btn_1_Click"/>
+        <Button Content="Oh" Width="100" Height="50" Click="OhBtnClick">
+            
+        </Button>
     </Grid>
 </Window>
