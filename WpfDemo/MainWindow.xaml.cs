@@ -24,7 +24,12 @@ namespace WpfDemo
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Views.TestDialog dialog = new Views.TestDialog();
-            dialog.Show();
+            dialog.Show();  // modaless
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Open MessageBox");
         }
     }
 }

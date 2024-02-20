@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfDemo.Views"
         mc:Ignorable="d"
-        Title="TestDialog" Height="250" Width="400"
+        Title="TestDialog" Height="150" Width="300"
         ResizeMode="NoResize"
+        Background="{DynamicResource MaterialDesignPaper}"
         >
     <Grid>
         <TextBlock Text="Dialog Test" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16">
