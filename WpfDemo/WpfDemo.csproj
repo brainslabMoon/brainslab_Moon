@@ -15,4 +15,9 @@
     <PackageReference Include="MaterialDesignThemes.MahApps" Version="0.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
 </Project>
